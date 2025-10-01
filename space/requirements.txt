@@ -1,0 +1,6 @@
+transformers>=4.30.0
+torch  # bạn có thể chọn cpu-only torch to reduce size; HF sẽ cài đúng phiên bản
+gradio
+accelerate
+huggingface-hub
+sentencepiece  # nếu tokenizer cần
