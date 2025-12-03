@@ -2,7 +2,7 @@
 
 This project implements an abstractive summarization system for Vietnamese news articles using a fine-tuned Transformer model (ViT5). It includes a complete pipeline from data crawling, preprocessing, training, evaluation, to deployment via a REST API and a Chrome Extension.
 
-## 🌟 Features
+## Features
 
 *   **Data Collection**: Crawler for VnExpress articles (`vnexpress_crawler.py`).
 *   **Preprocessing**: Text cleaning and dataset splitting (`preprocess.py`).
@@ -11,13 +11,13 @@ This project implements an abstractive summarization system for Vietnamese news 
 *   **API**: FastAPI backend for serving the model (`api/main.py`).
 *   **Chrome Extension**: Browser extension to summarize articles directly on web pages (`extension/`).
 
-## 📊 Data Visualization
+## Data Visualization
 
 The dataset consists of Vietnamese news articles and their summaries. Below is the distribution of text and summary lengths in the training set:
 
 ![Data Distribution](assets/data_distribution.png)
 
-## 🚀 Installation
+## Installation
 
 1.  Clone the repository:
     ```bash
@@ -39,7 +39,7 @@ The dataset consists of Vietnamese news articles and their summaries. Below is t
     pip install -r requirements.txt
     ```
 
-## 🛠 Usage
+## Usage
 
 ### 1. Data Preparation
 To crawl new data (optional):
@@ -78,11 +78,11 @@ The API will be available at `http://localhost:8000`.
 3.  Click "Load unpacked" and select the `extension` folder from this project.
 4.  Navigate to a news article and click the extension icon to summarize.
 
-## 📈 Model Performance
+## Model Performance
 
 The model is evaluated using ROUGE metrics. Detailed performance analysis including ROUGE-1, ROUGE-2, and ROUGE-L scores can be found in the `results/` directory and the evaluation notebook.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
