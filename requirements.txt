@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+pandas
+numpy
+scikit-learn
+fastapi
+uvicorn
+beautifulsoup4
+requests
+rouge_score
+matplotlib
+seaborn
+wordcloud
